@@ -2,8 +2,17 @@
 
 This repository contains the code and resources for the research paper "Developing a Cost-Effective Emulator for Groundwater Flow Modeling Using Deep Neural Operators," published in the Journal of Hydrology.
 
+## Authors
+- Maria Luisa Taccari, School of Civil Engineering, University of Leeds
+- He Wang, School of Computing, University of Leeds
+- Somdatta Goswami, Division of Applied Mathematics, Brown University
+- Mario De Florio, Division of Applied Mathematics, Brown University
+- Jonathan Nuttall, Deltares, Delft, The Netherlands
+- Xiaohui Chen, School of Civil Engineering, University of Leeds
+- Peter K. Jimack, School of Computing, University of Leeds
+  
 ## Abstract
-Our work introduces a groundbreaking emulator designed to forecast the impact of abstraction in aquifers efficiently and accurately. Utilizing a Deep Neural Operator (DeepONet) framework, our method learns mappings between infinite-dimensional function spaces, enabling precise predictions in groundwater flow modeling. The model's efficacy is demonstrated through various tests including forward time-dependent problems, inverse analysis, and nonlinear systems.
+Current groundwater models face significant challenges in their implementation due to heavy computational burdens. To overcome this, our work proposes a cost-effective emulator that efficiently and accurately forecasts the impact of abstraction in an aquifer. Our approach uses a deep neural operator (DeepONet) framework to learn operators that map between infinite-dimensional function spaces via deep neural networks. The goal is to infer the distribution of hydraulic heads in a confined aquifer in the presence of a pumping well. We successfully tested the DeepONet framework on multiple problems, including forward time-dependent problems, an inverse analysis, and a nonlinear system. Additionally, we propose a novel extension of the DeepONet-based architecture to generate accurate predictions for varied hydraulic conductivity fields and pumping well locations that are unseen during training. Our emulator's predictions match the target data with excellent performance, demonstrating that the proposed model can act as an efficient and fast tool to support a range of tasks that require repetitive forward numerical simulations or inverse simulations of groundwater flow problems. Overall, our work provides a promising avenue for developing cost-effective and accurate groundwater models.
 
 ## Repository Structure
 - `requirements.txt` - Lists all necessary packages to run the code.
