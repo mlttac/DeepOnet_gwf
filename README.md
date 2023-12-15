@@ -31,10 +31,14 @@ Contributions are welcome, especially for enhancing the tests or expanding the d
 ## Citation
 If this work aids your research, please cite our paper:
 ```bibtex
-@article{
-  title={Developing a Cost-Effective Emulator for Groundwater Flow Modeling Using Deep Neural Operators},
-  author={Maria Luisa Taccari and others},
-  journal={Journal of Hydrology},
-  year={2023},
-  publisher={Elsevier}
+@article{TACCARI2023130551,
+title = {Developing a cost-effective emulator for groundwater flow modeling using deep neural operators},
+journal = {Journal of Hydrology},
+pages = {130551},
+year = {2023},
+issn = {0022-1694},
+doi = {https://doi.org/10.1016/j.jhydrol.2023.130551},
+url = {https://www.sciencedirect.com/science/article/pii/S0022169423014932},
+author = {Maria Luisa Taccari and He Wang and Somdatta Goswami and Mario De Florio and Jonathan Nuttall and Xiaohui Chen and Peter K. Jimack},
 }
+
